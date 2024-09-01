@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.material-icons {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.icon-find {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: end;
+}
+
+#Da {
+    padding-right: 50px;
+    padding: 7px;
+}
+
+.header-icons button {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.icon {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .buttons {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: end;
+}
+
+.navbar button {
+    padding: 5px 15px;
+    margin-right: 7px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #e1e1e1;
+}
+
+.Vanda {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu h2 {
+    font-size: 4vh;
+}
+
+.menu-item img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.menu-item:hover {
+    background-color: #f1f1f1;
+}
+
+.sign-in {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#Anzo {
+    color: rgb(178, 179, 182);
+}
+
+.sign-in p {
+    font-size: 80%;
+}
+
+.sign-in button {
+    background-color: rgb(252, 5, 5);
+    color: #ffffff;
+    border: solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.more-from-youtube {
+    margin-top: 20px;
+}
+
+.more-from-youtube h3 {
+    font-size: 3vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.video-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.video-item h3 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.video-item p {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+
+#zoo i {
+    position: relative;
+    height: 20px;
+}
